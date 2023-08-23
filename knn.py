@@ -7,8 +7,12 @@ import pandas as pd
 import numpy as np
 from sklearn.model_selection import train_test_split
 
-nome_do_arquivo = "/home/biomal/Documentos/MACHINE LEARNING COM PYTHON/Bases de dados/credit_data.csv"
-dados = pd.read_csv(nome_do_arquivo)
+#nome_do_arquivo = "/home/biomal/Documentos/MACHINE LEARNING COM PYTHON/Bases de dados/credit_data.csv"
+#dados = pd.read_csv(nome_do_arquivo)
+
+url = "https://drive.google.com/file/d/1MTclvCzK2Dhv4PiQb1Hh0ftHPEJ7ktDg/view?usp=sharing"
+url2 ='https://drive.google.com/uc?id=' + url.split('/')[-2]
+dados = pd.read_csv(url2)
 
 dados.shape
 
