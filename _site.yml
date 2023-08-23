@@ -1,0 +1,13 @@
+---
+name: "COVerAge_Plot"
+output_dir: "docs"
+navbar:
+  left: 
+    - text: "k-NN Study Case"
+      href: index.html
+    - text: "teste"
+      href: teste.html
+output:
+  html_document:
+    theme: cosmo
+---
